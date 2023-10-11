@@ -2,7 +2,9 @@
 #include <string>
 #include <new>
 #include <stdlib.h>
+
 #include "GameGallows.hpp"
+#include "GameNavalBattle.hpp"
 
 #ifdef _WIN32
 #define CLEAR_SCREEN "CLS"
@@ -35,7 +37,8 @@ void PlayGallows()
 }
 void PlayNavalBattle()
 {
-    //TODO: Implement Naval Battle game
+    GameNavalBattle game;
+    WaitForEnter();
 }
 void PlayTicTacToe()
 {
