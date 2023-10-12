@@ -5,6 +5,7 @@
 
 #include "GameGallows.hpp"
 #include "GameNavalBattle.hpp"
+#include "GameTicTacToe.hpp"
 
 #ifdef _WIN32
 #define CLEAR_SCREEN "CLS"
@@ -42,7 +43,8 @@ void PlayNavalBattle()
 }
 void PlayTicTacToe()
 {
-    //TODO: Implement TicTacToe game
+    GameTicTacToe game;
+    WaitForEnter();
 }
 void About()
 {
